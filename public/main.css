@@ -1,3 +1,19 @@
 body {
-  background-color: blue;
+  background-color: lightblue;
+}
+.cupcake-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.cupcake {
+  outline: solid white 1px;
+  width: 15em;
+  margin-right: 1em;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.cupcake:last-child {
+  margin-right: none;
 }
